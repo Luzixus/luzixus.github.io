@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SiZLE - SiZLE İzliyoruz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/icon.png" type="image/x-icon">
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a href="./index.html" class="navbar-brand">
+            <img src="assets/img/icon.png" alt="" height="30">
+            SiZLE
+                </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Ana Sayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">Hakkımızda</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  TV Kanalları
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./streams/trt-kanallari-izle.html">TRT Kanalları</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Medya Gruplarına Göre (yakında))</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Page Body -->
+      <section id="anasayfa">
+        <div class="image">
+            <img src="assets/img/img1.png" alt="" height="145px">
+        </div>
+        <div class="titlep">
+            <br>
+            <h1>SiZLE İzliyoruz!</h1>
+            <p>SiZLE ile TV yayınlarını çevrimiçi izle.</p>
+            <br>
+        </div>
+      </section>
+      <section id="medyagruplistesi">
+        <br>
+        <h1 class="title">Medya Gruplarına Göre Yayınlar</h1>
+        <ul class="list">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">TRT Kanalları</h5>
+                  <p class="card-text">TRT (uzun adıyla Türkiye Radyo ve Televizyon Kurumu), SiZLE'de izlenebilir.</p>
+                  <a href="./streams/trt-kanallari-izle.html" class="btn btn-primary">Şimdi İzle</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Burada bir şey yok!?</h5>
+                  <p class="card-text">Henüz beta aşamasında olduğu için şuan sadece TRT kanalları bulunmaktadır.</p>
+                </div>
+              </div>
+        </ul>
+        <br>
+        <h1 class="title">Duyurular</h1>
+        <ul class="list">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">SiZLE Şimdi İzliyoruz!</h5>
+                  <p class="card-text">SiZLE Şimdi sizin için hemen açıldı!</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">SiZLE Discord'da</h5>
+                  <p class="card-text">Discord Sunucumuza gelerek haberleri takip edebilirsiniz.</p>
+                  <a href="#" class="btn btn-primary">Sunucumuza Git</a>
+                </div>
+              </div>
+        </ul>
+      </section>
+      <hr>
+      <footer>
+        <p>Copyright 2023 &copy Luzixus | Her hakkı saklıdır</p>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
